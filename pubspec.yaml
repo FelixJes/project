@@ -30,7 +30,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  fluttertoast: ^8.0.9
+  flutter_bloc: ^8.0.1  # BLoC for state management
+  equatable: ^2.0.5  # For equality checks in BLoC
+  logger: ^1.1.0
+  flutter_form_builder: ^7.0.0
+  shared_preferences: ^2.0.11
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
